@@ -1,0 +1,48 @@
+name: evb
+description: "A new Flutter project."
+
+# Prevents the package from being accidentally published to pub.dev.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Application version and build number.
+version: 1.0.0+1
+
+# Specifies the minimum Dart SDK version required for this project.
+environment:
+  sdk: ">=3.5.3 <4.0.0"
+
+# Dependencies for the application.
+dependencies:
+  flutter:
+    sdk: flutter
+  excel: ^2.0.4         # Use the latest version
+  pdf: ^3.6.0           # Use the latest version
+  intl: ^0.18.0 
+  image_picker: ^0.8.5+3 # Image picker plugin
+  http: ^0.13.5          # HTTP requests
+  file_picker: ^5.2.0    # File picker plugin
+  permission_handler: ^10.0.0
+  cupertino_icons: ^1.0.8 # iOS icons
+  shared_preferences: ^2.1.0 # Persistent storage
+  path_provider: ^2.0.10 
+  sqflite: ^2.2.0        # SQLite database plugin
+  path: ^1.8.0           # Path utilities
+  open_file: ^3.2.1
+  flutter_pdfview: ^1.0.1
+  url_launcher: ^6.3.1
+  path_provider_android: ^2.0.9
+ 
+  
+  
+# Ensures your asset files are included correctly.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logopo.png # Correctly listed asset
+# Development dependencies for testing and linting.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
